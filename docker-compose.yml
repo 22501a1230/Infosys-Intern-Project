@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  app:
+    build: .
+    ports:
+      - "5000:5000"
+    environment:
+      - NODE_ENV=production
+      - MONGO_URI=mongodb+srv://Jothi:Jothi18@mern2025.ytnsu.mongodb.net/mern-auth?retryWrites=true&w=majority&appName=Mern2025
+      - JWT_SECRET=mySuperSecretKey123
+      - PORT=5000
+    restart: unless-stopped
