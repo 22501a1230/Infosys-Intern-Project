@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Chatbot NLU Trainer & Evaluator
 
 A comprehensive full-stack MERN application for training, evaluating, and improving Natural Language Understanding (NLU) models for chatbots. This platform supports the complete workflow from data annotation to model deployment with active learning capabilities.
@@ -476,3 +477,6 @@ Every trained model is versioned automatically, allowing you to track performanc
 - Advanced analytics and reporting
 
 
+=======
+# Infosys-Intern-Project
+>>>>>>> a9203a3541f6c432a72ad76ee2b736a0d9f9b45d
